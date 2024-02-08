@@ -5,7 +5,6 @@ sidebar_position: 2
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ReactPlayer from 'react-player'
-import demo from './assets/video/demo.webm'
 
 # Quickstart
 
@@ -76,4 +75,4 @@ values={[
 
 There is a demo video showcasing the functionality of the Kanthor Webhook System using Kanthor Playground and Kanthor Console.
 
-<ReactPlayer controls url={demo} width="100%" />
+<ReactPlayer controls url="https://assets.kanthorlabs.com/docs/video/demo.webm" width="100%" />
