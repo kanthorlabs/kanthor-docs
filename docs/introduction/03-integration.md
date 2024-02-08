@@ -1,5 +1,6 @@
 ---
-sidebar_position: 4
+id: integration
+sidebar_position: 3
 ---
 
 import Tabs from '@theme/Tabs';
@@ -106,7 +107,7 @@ ep, err := sdk.Endpoint.Create(ctx, &kanthorsdk.EndpointCreateReq{
     Method: http.MethodPost,
     Name:   "POST endpoint",
     // using an dummy endpoint to demo
-    Uri:    "https://kanthor-playground.scrapnode.com/printout",
+    Uri:    "https://playground.kanthorlabs.com/printout",
 })
 if err != nil {
     panic(err)
@@ -189,35 +190,10 @@ if err != nil {
 
 </Tabs>
 
-After sending the message, you can navigate to our dummy website, [Kanthor Printout](https://kanthor-playground.scrapnode.com/printout), to verify whether the message was successfully delivered to the endpoint. We've included a screenshot to give you a visual representation of what it looks like.
+After sending the message, you can navigate to our dummy website, [Kanthor Printout](https://playground.kanthorlabs.com/printout), to verify whether the message was successfully delivered to the endpoint. We've included a screenshot to give you a visual representation of what it looks like.
 
 :::tip
 
 If you cannot locate your message, try adding a unique property to the message body. Then, use **Ctrl + F** to search for that value. It's not a convenient, but it's work ;)
 
 :::
-
-![Printout](./assets/img/integration/printout.png)
-
-## Viewing data on Kanthor Console
-
-<Tabs
-defaultValue="application"
-values={[
-{label: "Application", value: "application"},
-{label: "Endpoint", value: "endpoint"},
-]}>
-<TabItem value="application">
-
-![Application](./assets/img/integration/application.png)
-![Application Message](./assets/img/integration/application-message.png)
-
-</TabItem>
-
-<TabItem value="endpoint">
-
-![Endpoint](./assets/img/integration/endpoint.png)
-![Endpoint Message](./assets/img/integration/endpoint-message.png)
-
-</TabItem>
-</Tabs>

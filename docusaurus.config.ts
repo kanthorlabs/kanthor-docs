@@ -71,7 +71,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/kanthorlabs/kanthor-docs",
+          href: "https://github.com/kanthorlabs/kanthor",
           label: "GitHub",
           position: "right",
         },
@@ -94,15 +94,15 @@ const config: Config = {
           items: [
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/kanthor",
+              href: "https://stackoverflow.com/questions/tagged/kanthorlabs",
             },
             {
               label: "Discord",
-              href: "https://discordapp.com/invite/kanthor",
+              href: "https://discordapp.com/invite/kanthorlabs",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/kanthor",
+              href: "https://twitter.com/kanthorlabs",
             },
           ],
         },
@@ -115,7 +115,7 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/kanthorlabs/kanthor-docs",
+              href: "https://github.com/kanthorlabs/kanthor",
             },
           ],
         },
